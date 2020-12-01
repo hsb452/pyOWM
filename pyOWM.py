@@ -2,7 +2,7 @@ from pyowm import OWM
 
 reg=input("지역 이름을 영문으로 입력해주세요: ")
 
-owm=OWM("ffaf786248d0b1a517bcf988c4818579")
+owm=OWM("d0866560026dda53ae6587dbcb4721ae")
 mgr=owm.weather_manager()
 obs=mgr.weather_at_place(reg)
 w=obs.weather
